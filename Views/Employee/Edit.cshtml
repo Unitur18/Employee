@@ -1,0 +1,14 @@
+﻿@model EmployeeData.Models.EmployeeViewModel
+
+@{
+    ViewData["Title"] = "Edit Employee";
+
+}
+<h3>@ViewData["Ttile"]</h3>
+<hr />
+<form action="Edit" method="post">
+    <div class="mb-3">
+        <label class="form-label">Id</label>
+        <input type="text" class="form-control" asp-for="Id" readonly/>
+    </div>
+</form>
